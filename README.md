@@ -14,17 +14,20 @@ Instructor: [Arni Magnusson](https://github.com/arni-magnusson)
 2. Git concepts: repositories, commits, tags, branches, gitignore
 
 3. GitHub features: releases, assets, forks, pull requests, issues, access
-   control
+   control, authentication
 
 4. Git commands: clone, status, diff, add, commit, push, pull, log, rm, tag,
    checkout, reset
 
 5. Git user interfaces: command line, RStudio, web browser, other
 
-6. Techniques to manage multi-contributor collaboration in a single repository
+6. Good habits: commit early and often, keep commits small, keep a light repo,
+   pull before making changes
 
-7. When to organize workflows in separate folders vs. repos vs. forks vs.
+7. Techniques to manage multi-contributor collaboration in a single repository
+
+8. When to organize workflows in separate folders vs. repos vs. forks vs.
    branches, main git folder
 
-8. Git workflows for SPC repositories, comparison with other online storage
+9. Git workflows for SPC repositories, comparison with other online storage
    solutions
