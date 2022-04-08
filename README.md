@@ -16,8 +16,8 @@ Instructor: [Arni Magnusson](https://github.com/arni-magnusson)
 3. GitHub features: releases, assets, forks, pull requests, issues, access
    control, authentication
 
-4. Git commands: clone, status, diff, add, commit, push, pull, log, rm, tag,
-   checkout, reset
+4. Git commands: clone, status, diff, add, commit, push, pull, log, tag, rm,
+   checkout, clean, reset
 
 5. Git user interfaces: command line, RStudio, web browser, other
 
