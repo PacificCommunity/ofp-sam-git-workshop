@@ -3,7 +3,7 @@
 \begin{document}
 
 \begin{frame}
-  \title{\darkblue Introduction to Git and GitHub}
+  \title{\darkblue 1 ~ Introduction to Git and GitHub}
   \author{\darkgray\bf Arni Magnusson\\
     \phantom{.}\h{32ex}\includegraphics[width=1cm]{github_logo}}
   \date{\darkgreen SPC Git/GitHub Workshop\\[0.5ex]
@@ -27,6 +27,33 @@
       \h{21.4ex}browse, access control, authentication}\\[1ex]
   \end{itemize}
 \end{frame}
+
+% ______________________________________________________________________________
+
+\begin{frame}{Level of Expertise}\small
+  \begin{enumerate}
+    \item Have downloaded things from GitHub \comment{for example,
+      \fns\upshape\lstinline|install_github("somePackage")|}\\[2ex]
+    \item Have a GitHub account and Git is installed on my laptop\\[2ex]
+    \item Have created my own repo \comment{personal or within an
+      organization}\\[2ex]
+    \item Have forked a repo and submitted a pull request \comment{contributing
+      to a project}\\[2ex]
+    \item Have helped a colleague with Git/GitHub and starred a repo\\[2ex]
+    \item Have tagged a commit and created a GitHub release\\[2ex]
+    \item Happy with my Git tools and configuration \comment{edit, commit,
+      browse, etc.}\\[2ex]
+    \item Have worked across branches and solved a merge conflict\\[2ex]
+    \item Could give a one-day workshop on using Git and Github\\[2ex]
+  \end{enumerate}
+  \vspace{-5ex}
+  \h{9.2cm}\includegraphics[width=3ex]{smiley}
+  \vspace{4ex}
+\end{frame}
+
+% ______________________________________________________________________________
+
+
 
 % ______________________________________________________________________________
 
@@ -172,20 +199,67 @@
 
 % ______________________________________________________________________________
 
-\begin{frame}{GitHub Features}
-  Release
-  Assets
-  Forks
-  Pull request
-  Issue
+\begin{frame}{Git Concepts}\small
+  \begin{description}
+    \item[\bf\darkblue Repository] Project folder with tracked changes
+    \comment{a sequence of commits}\\[5ex]
+    \item[\bf\darkblue Commit] Saved snapshot \comment{example: bc4b374}\\[5ex]
+    \item[\bf\darkblue Tag] Nickname for a significant commit \comment{example:
+      2.0.0}\\[5ex]
+    \item[\bf\darkblue Branch] Parallel sequence of commits \comment{can be
+      merged later with the main branch}\\[5ex]
+    \item[\bf\darkblue Gitignore] List of local files that should be ignored
+    \comment{not uploaded to repository}
+  \end{description}
+\end{frame}
+
+\begin{frame}{GitHub Features}\small
+  \begin{description}
+    \item[\bf\darkblue Release] GitHub page pointing to a tag
+    \comment{guaranteed to work, human-readable history}\\[5ex]
+    \item[\bf\darkblue Assets] Downloadable files for a given release
+    \comment{installer.exe, everything.zip, poster.pdf}\\[5ex]
+    \item[\bf\darkblue Fork] Personal copy of a collaborative project repo
+    \comment{edit things, add features}\\[5ex]
+    \item[\bf\darkblue Pull request] Request project owner to consider your
+    additions \comment{from your fork to main repo}\\[5ex]
+    \item[\bf\darkblue Issue] Discussion related to project \comment{question,
+      bug, idea}
+  \end{description}
 \end{frame}
 
 % ______________________________________________________________________________
 
-\begin{frame}{GitHub Features (cont)}
-  Browse
-  Access control
-  Authentication
+\begin{frame}{GitHub Features (cont)}\small
+  \begin{description}
+    \item[\bf\darkblue Browse] Organization/user \comment{repos
+      (pinned/starred/search), people, teams}\\[3ex]
+    \item[] Repo \comment{activity, releases, contributors, files, issues, pull
+      requests, review comment}\\[3ex]
+    \item[] Commits \comment{history, log entries, changed files, changed
+      lines}\\[6ex]
+    \item[\bf\darkblue Access control] public, private
+    \comment{read/write/admin, teams}\\[6ex]
+    \item[\bf\darkblue Authentication] login, clone, push \comment{password,
+      windows credentials, ssh keys}\\[2ex]
+  \end{description}
+\end{frame}
+
+% ______________________________________________________________________________
+
+\begin{frame}{Overview}
+  \begin{itemize}
+    \item[] \hyperlink{examples}{\bf\darkblue Examples}
+    \comment{SPC software/analyses/information\\[1ex]
+      \h{14ex}fisheries software, open data, personal notes}\\[5ex]
+    \item[] \hyperlink{benefits}{\bf\darkblue Benefits}
+    \comment{track changes, backups, collaboration, dissemination}\\[5ex]
+    \item[] \hyperlink{git}{\bf\darkblue Git concepts}
+    \comment{repositories, commits, tags, branches, gitignore}\\[5ex]
+    \item[] \hyperlink{github}{\bf\darkblue GitHub features}
+    \comment{releases, assets, forks, pull requests, issues,\\[1ex]
+      \h{21.4ex}browse, access control, authentication}\\[1ex]
+  \end{itemize}
 \end{frame}
 
 \end{document}
