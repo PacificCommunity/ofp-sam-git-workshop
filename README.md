@@ -13,8 +13,8 @@ Instructor: [Arni Magnusson](https://github.com/arni-magnusson)
 
 2. Git concepts: repositories, commits, tags, branches, gitignore
 
-3. GitHub features: releases, assets, forks, pull requests, issues, access
-   control, authentication
+3. GitHub features: releases, assets, forks, pull requests, issues, browse,
+   access control, authentication
 
 4. Git commands: clone, status, diff, add, commit, push, pull, log, tag, rm,
    checkout, clean, reset
