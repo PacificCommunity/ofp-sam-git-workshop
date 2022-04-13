@@ -34,7 +34,7 @@ Peter Williams
 Room Noumea Library Conference Room
 Fabrice Bouye
 Jed Macdonald (too busy working to respond)
-Jennifer Mourot
+Jennifer Mourot present !
 Joe Scutt Philips
 Paul Hamer
 Sam McKechnie
@@ -47,5 +47,5 @@ Marc Ghergariu
 Valerie Allain
 Vanille Barthelemy
 Stanislas Ozier
-Thomas Tilak
+Thomas Tilak - present
 Leo Cann-Polydor
