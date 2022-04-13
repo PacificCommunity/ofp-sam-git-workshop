@@ -33,7 +33,7 @@ Peter Williams
 
 Room Noumea Library Conference Room
 Fabrice Bouye
-Jed Macdonald
+Jed Macdonald (should have responded)
 Jennifer Mourot
 Joe Scutt Philips
 Paul Hamer
