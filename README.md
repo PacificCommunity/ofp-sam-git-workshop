@@ -31,3 +31,5 @@ Instructor: [Arni Magnusson](https://github.com/arni-magnusson)
 
 9. Git workflows for SPC repositories, comparison with other online storage
    solutions
+
+10. Eat cookies
