@@ -34,7 +34,7 @@ Peter Williams
 Room Noumea Library Conference Room
 Fabrice Bouye
 Jed Macdonald
-Jennifer Mourot
+Jennifer Mourot present !
 Joe Scutt Philips
 Paul Hamer
 Sam McKechnie
