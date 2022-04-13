@@ -5,3 +5,5 @@
 *.pdf
 *.snm
 *.toc
+.Rproj.user
+*.Rproj
