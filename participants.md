@@ -12,7 +12,7 @@ Jemery Day
 John Hampton
 Marino-O-Te-Au Wichman
 Nan Yao
-Robert Scott
+Robert Scott. 
 Thomas Teears
 Sioeli Tonga
 George Shedrawi
@@ -20,9 +20,9 @@ Priya Rachna
 Sebastien Gislard
 Pauline Machful
 
+Graham Pilling
 **Maybe** (2)
 
-Graham Pilling
 Lauriane Escalle
 
 **No** (1)
@@ -33,7 +33,7 @@ Peter Williams
 
 Room Noumea Library Conference Room
 Fabrice Bouye
-Jed Macdonald (too busy working to respond)
+Jed Macdonald present !
 Jennifer Mourot present !
 Joe Scutt Philips
 Paul Hamer
