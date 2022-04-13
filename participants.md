@@ -47,5 +47,5 @@ Marc Ghergariu
 Valerie Allain
 Vanille Barthelemy
 Stanislas Ozier
-Thomas Tilak
+Thomas Tilak - present
 Leo Cann-Polydor
