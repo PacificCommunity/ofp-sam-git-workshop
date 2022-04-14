@@ -3,7 +3,7 @@
 **Instructor** (1)
 
 Arni Magnusson
-
+```
 Claudio Castillo Jordan
 Finlay Scott
 Jemery Day
@@ -23,3 +23,4 @@ Colley Falasi
 Steven Hare
 Ludwig Kumoru
 Thomas Tilak 
+```
