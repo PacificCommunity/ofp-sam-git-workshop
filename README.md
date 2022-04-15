@@ -26,10 +26,8 @@ Instructor: [Arni Magnusson](https://github.com/arni-magnusson)
 
 7. Techniques to manage multi-contributor collaboration in a single repository
 
-8. When to organize workflows in separate folders vs. repos vs. forks vs.
+8. When to manage workflows in separate folders vs. repos vs. forks vs.
    branches, main git folder
 
-9. Git workflows for SPC repositories, comparison with other online storage
+9. Git workflows for SPC projects, comparison with other online storage
    solutions
-
-10. Eat cookies

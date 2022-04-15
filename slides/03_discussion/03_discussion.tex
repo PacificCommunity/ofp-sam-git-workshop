@@ -21,12 +21,12 @@
     \item[] \hyperlink{collaboration}{\bf\darkblue Collaboration}
     \comment{multiple contributors, merge conflicts, plumbing analogy,\\
       \h{18.3ex}communication, forks, branches, pull requests}\\[5ex]
-    \item[] \hyperlink{folders}{\bf\darkblue Repo organization}
+    \item[] \hyperlink{repo}{\bf\darkblue Repo management}
     \comment{separate folders vs. repos vs. forks vs. branches,\\
-      \h{23.6ex}main git folder}\\[5ex]
-    \item[] \hyperlink{spc}{\bf\darkblue SPC workflows}
-    \comment{github vs. penguin vs. onedrive vs. c-drive vs. virtual machine,\\
-      \h{20ex}open science, reproducible analyses, regional/global
+      \h{24.5ex}main git folder}\\[5ex]
+    \item[] \hyperlink{spc}{\bf\darkblue SPC projects}
+    \comment{github vs. penguin vs. onedrive vs. teams vs. c-drive vs. vm,\\
+      \h{17.9ex}open science, reproducible analyses, regional/global
       collaboration}\\[1ex]
   \end{itemize}
 \end{frame}
@@ -44,16 +44,16 @@
   \vspace{4ex}
   {\bf\darkgreen Commit early and often}
   \begin{itemize}
-    \item[-] Create repo and first commits as soon as you begin working on
+    \item[] Create repo and first commits as soon as you begin working on
     something new\\[1ex]
-    \item[-] Keep each commit small
+    \item[] Keep each commit small
     \comment{\fns so it can be described with a short commit message}\\[1ex]
   \end{itemize}
   \vspace{6ex}
   {\bf\darkgreen Write descriptive commit messages}\\
   \begin{itemize}
-    \item[-] Relatively short, around 60 chars
-    \item[-] Describing purpose or specific things that were changed
+    \item[] Relatively short, around 60 chars
+    \item[] Describing purpose or specific things that were changed
   \end{itemize}
   \vspace{4ex}
 \end{frame}
@@ -64,17 +64,17 @@
   \vspace{4ex}
   {\bf\darkgreen Keep a light repo}\\
   \begin{itemize}
-    \item[-] Usually under 1 GB
-    \item[-] Avoid including a large file that will change
-    \item[-] General idea with repos is not to include output files
-    \item[-] {\it Release assets} are a good approach to attach heavy files while
+    \item[] Usually under 1 GB
+    \item[] Avoid including a large file that will change
+    \item[] General idea with repos is not to include output files
+    \item[] {\it Release assets} are a good approach to attach heavy files while
     keeping the repo light
   \end{itemize}
   \vspace{6ex}
   {\bf\darkgreen Pull before making changes}\\
   \begin{itemize}
-    \item[-] To make sure you're adding to the current state of the repo
-    \item[-] Avoiding merge conflicts
+    \item[] To make sure you're adding to the current state of the repo
+    \item[] Avoiding merge conflicts
   \end{itemize}
   \vspace{4ex}
 \end{frame}
@@ -93,16 +93,95 @@
   \vspace{4ex}
   {\bf\darkgreen Multiple contributors}\\
   \begin{itemize}
-    \item[-] Merge conflicts
-    \item[-] Plumbing analogy
-    \item[-] Communication
+    \item[] Merge conflicts
+    \item[] Plumbing analogy
+    \item[] Communication
   \end{itemize}
   \vspace{6ex}
   {\bf\darkgreen Pull requests}\\
   \begin{itemize}
-    \item[-] Forks, branches
-    \item[-] Submitting and handling pull requests
+    \item[] Forks, branches
+    \item[] Submitting and handling pull requests
   \end{itemize}
+  \vspace{4ex}
+\end{frame}
+
+% ______________________________________________________________________________
+
+\begin{frame}\Large
+  \hypertarget{repo}
+  \centering\darkgreen\bf
+  Repo Management
+\end{frame}
+
+% ______________________________________________________________________________
+
+\begin{frame}{Repo Management}\small
+  \vspace{4ex}
+  {\bf\darkgreen Related workflows can be organized in}\\
+  \begin{itemize}
+    \item[] Separate files
+    \item[] Separate folders
+    \item[] Separate repos
+  \end{itemize}
+  \vspace{3ex}
+  \h{-2ex}\comment{$\Rightarrow$ Makes things easier to understand, extend, and
+    maintain}\\[2ex]
+  \h{-2ex}\comment{$\Rightarrow$ Also reduces the risk of merge conflicts}
+  \vspace{4ex}
+\end{frame}
+
+% ______________________________________________________________________________
+
+\begin{frame}{Repo Management (cont)}\small
+  {\bf\darkgreen Main git folder}\\[1ex]
+  \h{3ex}Consider storing all Git repos in one place\\[-0.5ex]
+  \begin{itemize}\fns
+    \item[] {\tt c:/git} \comment{in Windows}\\[0ex]
+    \item[] {\tt $\sim$/git} \h{0.6ex}\comment{in Linux}
+  \end{itemize}
+  \h{3ex}For example, I store this workshop repo\\[0.5ex]
+  \h{5ex}{\tt\fns
+    https://github.com/PacificCommunity/ofp-sam-git-workshop}\\[0.5ex]
+  \h{3ex}on my computer as\\
+  \h{5ex}{\tt\fns $\sim$/git/PacificCommunity/ofp-sam/git-workshop}\\
+  \vspace{2ex}
+  {\bf\darkgreen Benefits}\\[-0.5ex]
+  \begin{itemize}
+    \item[] Easy to find repos\\[0ex]
+    \item[] Repos are not repeated or forgotten in multiple places\\[0ex]
+    \item[] Related repos are next to each other\\[0ex]
+    \item[] The main Git folder can be excluded from regular backups
+  \end{itemize}
+\end{frame}
+
+% ______________________________________________________________________________
+
+\begin{frame}\Large
+  \hypertarget{spc}
+  \centering\darkgreen\bf
+  SPC Projects
+\end{frame}
+
+% ______________________________________________________________________________
+
+\begin{frame}{SPC Projects}\small
+  \vspace{1ex}
+  {\bf\darkgreen Where to work on a project}\\[0ex]
+  \begin{itemize}
+    \item[] GitHub repo\\[0ex]
+    \item[] Shared drive \h{0.6ex}\comment{penguin}\\[0ex]
+    \item[] OneDrive\\[0ex]
+    \item[] Teams folder\\[0ex]
+    \item[] C-drive \h{5.5ex}\comment{desktop}\\[0ex]
+    \item[] Personal VM \comment{wsl}
+  \end{itemize}
+  \vspace{2ex}
+  No rules, but worth thinking about the pros and cons of each options\\[1ex]
+  Git/GitHub skills are one factor to consider\\[1ex]
+  GitHub repos are the default standard for open science and reproducible
+  analyses\\[1ex]
+  Also practical for regional and international collaboration
   \vspace{4ex}
 \end{frame}
 
@@ -116,12 +195,12 @@
     \item[] \hyperlink{collaboration}{\bf\darkblue Collaboration}
     \comment{multiple contributors, merge conflicts, plumbing analogy,\\
       \h{18.3ex}communication, forks, branches, pull requests}\\[5ex]
-    \item[] \hyperlink{folders}{\bf\darkblue Repo organization}
+    \item[] \hyperlink{repo}{\bf\darkblue Repo management}
     \comment{separate folders vs. repos vs. forks vs. branches,\\
-      \h{23.6ex}main git folder}\\[5ex]
-    \item[] \hyperlink{spc}{\bf\darkblue SPC workflows}
-    \comment{github vs. penguin vs. onedrive vs. c-drive vs. virtual machine,\\
-      \h{20ex}open science, reproducible analyses, regional/global
+      \h{24.5ex}main git folder}\\[5ex]
+    \item[] \hyperlink{spc}{\bf\darkblue SPC projects}
+    \comment{github vs. penguin vs. onedrive vs. teams vs. c-drive vs. vm,\\
+      \h{17.9ex}open science, reproducible analyses, regional/global
       collaboration}\\[1ex]
   \end{itemize}
 \end{frame}
