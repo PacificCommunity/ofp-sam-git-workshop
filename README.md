@@ -6,6 +6,12 @@
 
 Instructor: [Arni Magnusson](https://github.com/arni-magnusson)
 
+**Slides**
+
+[absolute](https://github.com/PacificCommunity/ofp-sam-git-workshop/blob/main/slides/01_intro/01_intro.pdf)
+
+[relative](slides/01_intro/01_intro.pdf)
+
 **Topics**
 
 1. Main benefits of using Git/GitHub: track changes, backups, collaboration,
