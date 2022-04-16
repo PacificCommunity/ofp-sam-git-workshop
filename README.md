@@ -8,9 +8,9 @@ Instructor: [Arni Magnusson](https://github.com/arni-magnusson)
 
 **Slides**
 
-[absolute](https://github.com/PacificCommunity/ofp-sam-git-workshop/blob/main/slides/01_intro/01_intro.pdf)
-
-[relative](slides/01_intro/01_intro.pdf)
+- [Introduction to Git and GitHub](slides/01_intro/01_intro.pdf)
+- [Git Commands and User Interface](slides/02_git/02_git.pdf)
+- [Discussion Points](slides/03_discussion/03_discussion.pdf)
 
 **Topics**
 
