@@ -12,6 +12,10 @@ Instructor: [Arni Magnusson](https://github.com/arni-magnusson)
 - [Git Commands and User Interface](slides/02_git/02_git.pdf)
 - [Discussion Points](slides/03_discussion/03_discussion.pdf)
 
+**Examples**
+
+List of [example repositories](examples.md)
+
 **Topics**
 
 1. Main benefits of using Git/GitHub: track changes, backups, collaboration,
