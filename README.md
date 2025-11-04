@@ -2,7 +2,7 @@
 
 <!--- *Wednesday 13 April 2022, 13:00-17:00* --->
 
-*SPC Noumea Library Room*
+<!--- *SPC Noumea Library Room* --->
 
 Instructor: [Arni Magnusson](https://github.com/arni-magnusson)
 
