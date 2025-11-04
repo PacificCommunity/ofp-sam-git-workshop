@@ -1,6 +1,6 @@
 # Git/GitHub Workshop
 
-*Wednesday 13 April 2022, 13:00-17:00*
+<!--- *Wednesday 13 April 2022, 13:00-17:00* --->
 
 *SPC Noumea Library Room*
 
