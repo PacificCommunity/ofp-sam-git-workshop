@@ -1,0 +1,227 @@
+\documentclass[aspectratio=169]{beamer}
+\usepackage{spc}
+\usepackage{upquote}
+\newcommand\latex{La\h{-0.3ex}TeX}
+\begin{document}
+
+\begin{frame}
+  \title{\darkblue 3 ~ Markdown}
+  \author{\darkgray\bf Arni Magnusson\\
+    \phantom{.}\h{32ex}\includegraphics[width=1cm]{github_logo}}
+  \date{\darkgreen SPC Git/GitHub Workshop\\[0.5ex]
+    Nouméa, 12 November 2025}
+  \titlepage
+\end{frame}
+
+% ______________________________________________________________________________
+
+\begin{frame}{Overview}
+  \begin{itemize}
+    \item[] \hyperlink{languages}{\bf\darkblue Markup languages}
+    \comment{\latex, HTML, Markdown}\\[4ex]
+    \item[] \hyperlink{flavors}{\bf\darkblue Markdown flavors}
+    \comment{GitHub, R Markdown, Quarto}\\[4ex]
+    \item[] \hyperlink{text}{\bf\darkblue Formatting text}
+    \comment{heading, bold, italic, list,\\[0.6ex]
+      \h{20.4ex} quote, linebreak, horizontal line, code, link}\\[4ex]
+    \item[] \hyperlink{other}{\bf\darkblue Other elements}
+    \comment{table, figure, GitHub user/issue/commit}\\[1ex]
+  \end{itemize}
+\end{frame}
+
+% ______________________________________________________________________________
+
+\begin{frame}\Large
+  \hypertarget{languages}
+  \centering\darkgreen\bf
+  Markup Languages
+\end{frame}
+
+% ______________________________________________________________________________
+
+\begin{frame}{Markup Languages}\small
+  \textbf{\orange \latex}\\[-1ex]
+  \begin{itemize}
+    \item[] Introduced: 1978/1985\\[-1ex]
+    \item[] Original purpose: books, articles, reports, slides\\[-1ex]
+    \item[] Today: can be used directly or as an engine to produce PDF\\[2.5ex]
+  \end{itemize}
+  \textbf{\blue HTML}\\[-1ex]
+  \begin{itemize}
+    \item[] Introduced: 1991\\[-1ex]
+    \item[] Original purpose: webpages\\[-1ex]
+    \item[] Today: paperless format, less restrictive than the `paper metaphor'
+    PDF format\\[2.5ex]
+  \end{itemize}
+  \textbf{\green Markdown}\\[-1ex]
+  \begin{itemize}
+    \item[] Introduced: 2004\\[-1ex]
+    \item[] Original purpose: easy-to-write, easy-to-read, optionally convert to
+    HTML\\[-1ex]
+    \item[] Today: can produce HTML or PDF (via \latex), can run R code\\[1.5ex]
+  \end{itemize}
+\end{frame}
+
+% ______________________________________________________________________________
+
+\begin{frame}[fragile]{Markup Languages}\small
+  \textbf{\orange \latex: file.tex}
+  \vspace{-1.6ex}
+  \begin{fns}
+    \begin{verbatim}
+      \documentclass{article}
+      \begin{document}
+      Hello world
+      \end{document}
+    \end{verbatim}
+  \end{fns}
+  \vspace{-2.3ex}
+  \textbf{\blue HTML: file.html}
+  \vspace{-1.6ex}
+  \begin{fns}
+    \begin{verbatim}
+      <!DOCTYPE html>
+      <title></title>
+      <body>
+      <p>Hello world
+    \end{verbatim}
+  \end{fns}
+  \vspace{-2.3ex}
+  \textbf{\green Markdown: file.md}
+  \vspace{-1.6ex}
+  \begin{fns}
+    \begin{verbatim}
+      Hello world
+    \end{verbatim}
+  \end{fns}
+  \vspace{4ex}
+\end{frame}
+
+% ______________________________________________________________________________
+
+\begin{frame}\Large
+  \hypertarget{flavors}
+  \centering\darkgreen\bf
+  Markdown Flavors
+\end{frame}
+% ______________________________________________________________________________
+
+\begin{frame}{Markdown Flavors}\small
+  \textbf{\orange GitHub Flavored Markdown}
+  \begin{itemize}
+    \item[] Features: table, autolink, user/issue/commit
+    \item[] Usefulness at SPC: README.md, GitHub discussions\\[3ex]
+  \end{itemize}
+  \textbf{\blue R Markdown}
+  \begin{itemize}
+    \item[] Features: run R code
+    \item[] Usefulness as SPC: R analyses, HTML/PDF documents\\[3ex]
+  \end{itemize}
+  \textbf{\green Quarto}
+  \begin{itemize}
+    \item[] Features: run R and Python code
+    \item[] Usefulness as SPC: R analyses, HTML/PDF documents\\[3ex]
+  \end{itemize}
+\end{frame}
+
+% ______________________________________________________________________________
+
+\begin{frame}\Large
+  \hypertarget{text}
+  \centering\darkgreen\bf
+  Formatting Text
+\end{frame}
+
+% ______________________________________________________________________________
+
+\begin{frame}[fragile]{Formatting Text}\small
+  \begin{verbatim}
+    # Heading level 1
+    ## Heading level 2
+    ### Heading level 3
+
+    **bold**
+    *italic*
+
+    * unordered
+    * list
+
+    - alternative
+    - style
+
+    1. ordered
+    2. list
+  \end{verbatim}
+  \vspace{2ex}
+\end{frame}
+
+% ______________________________________________________________________________
+
+\begin{frame}[fragile]{Formatting Text (cont.)}\small
+  \begin{verbatim}
+    > quoted
+    > text
+
+    line\
+    break
+
+    ---
+
+    Inline `code`
+
+    ```
+    code block
+    ```
+
+    https://example.com
+    [click here](https://example.com)
+  \end{verbatim}
+  \vspace{2ex}
+\end{frame}
+
+% ______________________________________________________________________________
+
+\begin{frame}\Large
+  \hypertarget{other}
+  \centering\darkgreen\bf
+  Formatting Other Elements
+\end{frame}
+
+% ______________________________________________________________________________
+
+\begin{frame}[fragile]{Formatting Other Elements}\small
+  \begin{verbatim}
+    | Table | Header |
+    | ----- + ------ +
+    | Data  | Values |
+    | Data  | Values |
+
+
+    ![](figure.png)
+
+    <img src="figure.png" alt="">
+
+
+    @user          -  github username
+    #1             -  github issue number
+    e15ccce        -  github commit sha code
+  \end{verbatim}
+\end{frame}
+
+% ______________________________________________________________________________
+
+\begin{frame}{Overview}
+  \begin{itemize}
+    \item[] \hyperlink{languages}{\bf\darkblue Markup languages}
+    \comment{\latex, HTML, Markdown}\\[4ex]
+    \item[] \hyperlink{flavors}{\bf\darkblue Markdown flavors}
+    \comment{GitHub, R Markdown, Quarto}\\[4ex]
+    \item[] \hyperlink{text}{\bf\darkblue Formatting text}
+    \comment{heading, bold, italic, list,\\[0.6ex]
+      \h{20.4ex} quote, linebreak, horizontal line, code, link}\\[4ex]
+    \item[] \hyperlink{other}{\bf\darkblue Other elements}
+    \comment{table, figure, GitHub user/issue/commit}\\[1ex]
+  \end{itemize}
+\end{frame}
+
+\end{document}
