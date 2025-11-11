@@ -10,7 +10,8 @@ Instructor: [Arni Magnusson](https://github.com/arni-magnusson)
 
 - [Introduction to Git and GitHub](slides/01_intro/01_intro.pdf)
 - [Git Commands and User Interface](slides/02_git/02_git.pdf)
-- [Discussion Points](slides/03_discussion/03_discussion.pdf)
+- [GitHub Markdown](slides/03_markdown/03_markdown.pdf)
+- [Discussion Points](slides/04_discussion/04_discussion.pdf)
 
 **Examples**
 
@@ -31,13 +32,15 @@ List of [example repositories](examples.md)
 
 5. Git user interfaces: command line, RStudio, web browser, other
 
-6. Good habits: commit early and often, keep commits small, keep a light repo,
+6. GitHub markdown: text, list, code, link, table, figure
+
+7. Good habits: commit early and often, keep commits small, keep a light repo,
    pull before making changes
 
-7. Techniques to manage multi-contributor collaboration in a single repository
+8. Techniques to manage multi-contributor collaboration in a single repository
 
-8. When to manage workflows in separate folders vs. repos vs. forks vs.
+9. When to manage workflows in separate folders vs. repos vs. forks vs.
    branches, main git folder
 
-9. Git workflows for SPC projects, comparison with other online storage
-   solutions
+10. Git workflows for SPC projects, comparison with other online storage
+    solutions
