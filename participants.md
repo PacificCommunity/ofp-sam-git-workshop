@@ -21,3 +21,4 @@ Arni Magnusson (instructor)
 17. Steven Hare
 18. Thomas Teears
 19. Thomas Tilak
+20. Tiffany Vidal
